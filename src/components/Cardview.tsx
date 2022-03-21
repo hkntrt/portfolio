@@ -1,7 +1,7 @@
 import React from "react";
-import { Item } from "../projects/database";
+import { Item } from "../data/database";
 
-const CardView = (props: Item) => {
+const CardView: React.FC<Item> = (props: Item) => {
     return (
         <React.Fragment>
             <div className="card">

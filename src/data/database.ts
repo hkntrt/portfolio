@@ -43,6 +43,13 @@ const database: Item[] = [
         tech_stack: "Android Java Room Database",
         src_code_link: "https://github.com/hkntrt/sorularlaegitimbilimleripublic",
         img_url: "https://raw.githubusercontent.com/hkntrt/sorularlaegitimbilimleripublic/main/Screenshots/ss1.png"
+    },
+    {
+        id: 5,
+        name: "Portfolio App",
+        tech_stack: "React & Typescript",
+        src_code_link: "https://github.com/hkntrt/portfolio",
+        img_url: "https://raw.githubusercontent.com/hkntrt/portfolio/main/Portfolio.gif"
     }
 ]
 

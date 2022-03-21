@@ -1,8 +1,8 @@
 import React from "react";
 import CardView from "./Cardview";
-import database from "../projects/database";
+import database from "../data/database";
 
-const Gallery = () => {
+const Gallery: React.FC = () => {
     return (
         <React.Fragment>
             <div className="gallery">
