@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header a {
+  padding: 1rem;
+  width: 2rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  justify-content: space-evenly ;
+  height: 100%;
+}
+
+.card {
+  max-width: 15rem;
+  word-wrap: break-word;
+  border: 0.1rem solid gray;
+  border-radius: 1rem;
+  margin: 2rem;
+  background-color: #97b1a6;
+  box-shadow: 0px 2px 25px 1px rgba(0,0,0,0.55)
+}
+.card img {
+  max-height: 15vw;
+  min-height: 20vh;
+  min-width: 85%;
+}
+
+.card-context {
+  padding: 0.9rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 0.1rem solid black;
+}
+
+footer a {
+  margin-top: 1rem;
+}
+
+.xxx {
+  display: flex;
+  justify-content: center;
+}
