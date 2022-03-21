@@ -9,9 +9,9 @@ const Header: React.FC = () => {
                     <h1> Portfolio Website </h1>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/hakanturut/"> <FaLinkedin size={50} /> </a>
-                    <a href="https://github.com/hkntrt"> <FaGithub size={50} /> </a>
-                    <a href="https://twitter.com/hkntrt1"> <FaTwitter size={50} /> </a>
+                    <a href="https://www.linkedin.com/in/hakanturut/"> <FaLinkedin  color={"purple"} size={50} /> </a>
+                    <a href="https://github.com/hkntrt"> <FaGithub  color={"purple"} size={50} /> </a>
+                    <a href="https://twitter.com/hkntrt1"> <FaTwitter  color={"purple"} size={50} /> </a>
                 </div>
             </div>
         </React.Fragment>
